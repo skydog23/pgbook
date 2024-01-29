@@ -30,7 +30,14 @@ github_username:  skydog23
 # Build settings
 theme: minima
 plugins:
+  - jektex
   - jekyll-feed
+
+jektex:
+  macros:
+    - ["\\myb", "\\mathbf{#1}"]
+    - ["\\Q", "\\mathbb{Q}"]
+    - ["\\C", "\\mathbb{C}"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.

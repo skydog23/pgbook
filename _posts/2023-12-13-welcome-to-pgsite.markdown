@@ -4,7 +4,9 @@ title:  "Welcome to learning about projective geometry!"
 date:   2023-12-13 11:47:39 +0100
 categories: jekyll update
 ---
-Let's test KaTeX markdown: $x = x$.
+  Testing  \( \jektex \): \( \sum_1^n x = \dfrac{n(n+1)}{2} \)
+
+Testing macros \( X + \myb{X} \)
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
