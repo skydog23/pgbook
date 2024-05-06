@@ -38,6 +38,10 @@ jektex:
     - ["\\myb", "\\mathbf{#1}"]
     - ["\\Q", "\\mathbb{Q}"]
     - ["\\C", "\\mathbb{C}"]
+    - ["\\RP", "\\mathbf{P}^{#1}"] 
+    - ["\\XRP", "\\bigwedge(\\RP{#1})"] 
+    - ["\\eye", "\\mathbb{I}"] 
+    - ["\\one", "\\myb{\\mathbb{1}}"] 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
